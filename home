@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFA Portfolio</title>
+    <style>
+        /* Bronze Brown background: PANTONE 18-0937 */
+        body {
+            margin: 0;
+            font-family: "Times New Roman", serif;
+            background-color: #7C4B2E; /* Approximation of PANTONE 18-0937 TCX */
+            color: white;
+        }
+
+        /* Top navigation bar */
+        .navbar {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: rgba(0,0,0,0.2); /* slight transparency */
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            margin-right: 2rem;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #FFD700; /* Gold highlight on hover */
+        }
+
+        /* Content placeholder */
+        .content {
+            padding: 2rem;
+        }
+
+        section {
+            padding: 4rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        h1, h2 {
+            margin: 0 0 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#about">About</a>
+        <a href="#works">Works</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="content">
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Write a short introduction here about yourself.</p>
+        </section>
+
+        <section id="works">
+            <h1>Works</h1>
+            <p>Showcase your projects or artworks here.</p>
+        </section>
+
+        <section id="resume">
+            <h1>Resume</h1>
+            <p>Add your resume or experience details here.</p>
+        </section>
+
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>Add your contact info or a form here.</p>
+        </section>
+    </div>
+</body>
+</html>
