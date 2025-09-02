@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | MFA Portfolio</title>
+
+<!-- Google Fonts: Cormorant Garamond -->
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        font-family: 'Cormorant Garamond', serif;
+        background-color: #1C1C1C;
+        color: white;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    /* Navbar styling */
+    .navbar {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: rgba(0,0,0,0.35);
+        padding: 1rem 2rem;
+        border-radius: 8px;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: white;
+        margin-right: 2rem;
+        font-size: 1.2rem;
+        transition: color 0.3s, text-shadow 0.3s;
+    }
+
+    .navbar a:last-child {
+        margin-right: 0;
+    }
+
+    .navbar a:hover {
+        color: #FFD700;
+        text-shadow: 0 0 5px #fff;
+    }
+
+    /* Bio section */
+    .bio {
+        max-width: 700px;
+        margin-top: 6rem;
+        line-height: 1.8;
+        font-size: 1.2rem;
+        text-align: left;
+    }
+
+    .bio h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    /* Optional photo styling */
+    .bio img {
+        max-width: 200px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto 2rem;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+        .navbar {
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .navbar a {
+            margin-bottom: 0.5rem;
+        }
+
+        .navbar a:last-child {
+            margin-bottom: 0;
+        }
+
+        .bio h1 {
+            font-size: 2rem;
+        }
+
+        .bio {
+            font-size: 1rem;
+        }
+    }
+</style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="works.html">Works</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<!-- Bio Section -->
+<div class="bio">
+    <!-- Optional photo -->
+    <!-- <img src="yourphoto.jpg" alt="Emily Anne Rose"> -->
+
+    <h1>About Me</h1>
+    <p>
+        Emily is a multidisciplinary artlist living in Los Angeles.
+      
+    </p>
+</div>
+
+</body>
+</html>
